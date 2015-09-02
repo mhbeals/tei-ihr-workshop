@@ -1,3 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="singlestyle.xsl"?>
+<TEI>
+  <teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glasgow Advertiser (Glasgow, Scotland, United Kingdom), 21 February 1791, p. 3</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Transcribed by M. H. Beals from a digital image on Google Newspaper Archive, accessed at https://news.google.com/newspapers?id=-UdEAAAAIBAJ&sjid=yLEMAAAAIBAJ&pg=5146%2C1241382 on 02 September 2015.</authority>
+			</publicationStmt>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body> 
+		
 Richmond, Virginia, Dec. 1, 1790.
 
 Extract of a letter from a Gentleman at Kentucky, to a Member of the General Assembly, dated, Nov. 7, 1790.
@@ -16,8 +32,6 @@ Extract of a letter from a Gentleman at Kentucky, to a Member of the General Ass
 
 “This is the best account that I have been able to collect; it will be delivered to you by Major Jones, who before he leaves the district, may be enabled to obtain further particulars.”
 
-
-____________________________________
-Transcription Information: Collected from a digital image on 20130523 by M. H. Beals. Transcribed on 20141107 by M. H. Beals.
-
-Citation: Glasgow Advertiser (Glasgow, Scotland, United Kingdom), 21 February 1791, p. 3, available at the Scissors and Paste Database, http://www.scissorsandpaste.net/347.
+</body>
+</text>
+</TEI>
