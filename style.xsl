@@ -5,27 +5,13 @@
     <xsl:template match="/">
         <html>
             <body>
-               
-                <center><h2>
-                    <xsl:value-of select="teiCorpus/teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/title"/>
-                </h2>
                 <h4>
-                    <xsl:value-of select="teiCorpus/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/publisher"/>.<br/>
-                    <xsl:value-of select="teiCorpus/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/distributor"/><br/>
-                    <xsl:value-of select="teiCorpus/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/pubPlace/settlement"/>: <xsl:value-of select="teiCorpus/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/date/@when"/>.
+                    <xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/><br/>
+                    <xsl:value-of select="TEI/teiHeader/fileDesc/publicationStmt/authority"/><br/>
                 </h4>
-                <hr/>
-                <h4><xsl:value-of select="teiCorpus/teiHeader/fileDesc/titleStmt/title"/>.<br/>
-                    <xsl:value-of select="teiCorpus/teiHeader/fileDesc/publicationStmt/authority"/>.
-                </h4>
-                </center>
-                <hr/>
-                <h4>Page: <xsl:value-of select="teiCorpus/TEI/teiHeader/fileDesc/sourceDesc/bibl/biblScope"/></h4>
-                <xsl:for-each select="teiCorpus/TEI/text/body">
+                <xsl:for-each select="TEI/text/body">
                     <p><xsl:apply-templates/></p>
-                    <i><xsl:value-of select="../../teiHeader/fileDesc/publicationStmt/authority"/>.</i>
                 </xsl:for-each>
-                
                 <h3>Key:</h3>
                 <ul>
                     <li style="color:blue;text-decoration:none;">Individual</li>
