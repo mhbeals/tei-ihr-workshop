@@ -30,4 +30,7 @@
     <xsl:template match="interp">
         <a style="color:red;text-decoration:none;" href="{@ref}" title="{@key}&#013;&#013;{@n}, available at {@ref}"><xsl:value-of select="."/></a>
     </xsl:template>
+    <xsl:template match="pb">
+        <h4>Page: <a name="{@n}"><xsl:value-of select="@n"/></a></h4> 
+    </xsl:template>
 </xsl:stylesheet>
