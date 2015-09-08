@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<?xml-stylesheet type="text/xsl" href="singlestyle.xsl"?>
 <TEI>
 <teiHeader>
 <fileDesc>
-<titleStmt>
-<title>Glasgow Advertiser (Glasgow, Scotland, United Kingdom), 21 February 1791, p. 3</title>
-</titleStmt>
 <publicationStmt>
-<authority>Transcribed by M. H. Beals from a digital image on Google Newspaper Archive, accessed at https://news.google.com/newspapers?id=-UdEAAAAIBAJ&sjid=yLEMAAAAIBAJ&pg=5146%2C1241382 on 02 September 2015.</authority>
+<authority>Glasgow Advertiser (Glasgow, Scotland, United Kingdom), 21 February 1791, p. 3</authority>
 </publicationStmt>
 </fileDesc>
 </teiHeader>
 <text>
-<body> 
-		
+<body>
+
 Richmond, Virginia, Dec. 1, 1790.
 
 Extract of a letter from a Gentleman at Kentucky, to a Member of the General Assembly, dated, Nov. 7, 1790.
